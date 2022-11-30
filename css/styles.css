@@ -219,6 +219,7 @@ img {
 
 .modal {
     position: absolute;
+    padding: 40px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -253,11 +254,6 @@ img {
     color: #212121;
 }
 
-.form {
-    padding: 40px;
-    border: none;
-}
-
 .form__label {
     display: flex;
     display: flex;
@@ -279,6 +275,7 @@ img {
 
 .textarea {
     display: block;
+    resize: none;
     width: 100%;
     min-height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
