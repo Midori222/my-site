@@ -65,18 +65,27 @@
                             <b class="form__title">Оставьте свои данные, мы вам перезвоним</b>
                             <label class="form__label">Имя</label>
                             <div class="form__item">
+                                <svg class="form__icon" width="12" height="12">
+                                    <use href="./img/symbol-defs.svg#icon-human"></use>
+                                </svg>
                                 <input class="form__input" type="text" name="username" autofocus/>
                             </div>
 
                             <label class="form__label">
                                     Телефон</label>
                             <div class="form__item">
+                                <svg class="form__icon" width="13" height="13">
+                                    <use href="./img/symbol-defs.svg#icon-phone"></use>
+                                </svg>
                                 <input class="form__input" type="tel" name="phone_number" />
                             </div>
 
                             <label class="form__label">
                                     Почта</label>
                             <div class="form__item">
+                                <svg class="form__icon" width="15" height="12">
+                                    <use href="./img/symbol-defs.svg#icon-email"></use>
+                                </svg>
                                 <input class="form__input" type="email" name="email" />
                             </div>
 
@@ -85,6 +94,7 @@
                             <textarea class="textarea" name="comment" rows="5" placeholder="Введите текст"></textarea>
                             <label class="contract">
                                 <input type="checkbox" name="checkbox" value="accept">
+                                <span class="checkbox__icon"></span>
                                 <span> Соглашаюсь с рассылкой и принимаю <a class="form__link" href> Условия договора</a></span>
                             </label>
                         </form>
@@ -367,6 +377,20 @@
                         </li>
                     </ul>
                 </div>
+
+                <form class="form--footer">
+                    <label class="follow__title">Подпишитесь на рассылку</label>
+                    <div class="follow--container">
+                        <input class="input__follow" type="email" name="email" placeholder="E-mail">
+
+                        <button class="button btn--primery follow" type="submit">Подписаться
+                            <svg class="follow__icon" width="24" height="24">
+                                <use href="./img/symbol-defs.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+
             </div>
         </div>
 
